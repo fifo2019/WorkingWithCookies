@@ -1,0 +1,57 @@
+:root {
+    --width-block: 600px;
+    --heigth-block: 300px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+#user-city {
+    flex-basis: var(--width-block);
+    min-height: var(--heigth-block);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#user-survey {
+    flex-basis: var(--width-block);
+    min-height: var(--heigth-block);
+    border-left: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-questions {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type='checkbox'] {
+    margin: 10px;
+}
+
+.js-remove-city {
+    background-color: #ffffff;
+    color: red;
+    border: none;
+    font-size: 17px;
+    outline: none;
+}
+
+.js-remove-city:hover {
+    cursor: pointer;
+}
+
+.js-save-checkbox {
+    align-self: center;
+}
+
+.hide {
+    display: none;
+}

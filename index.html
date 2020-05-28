@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Index</title>
+</head>
+<body>
+<main class="container">
+    <section id="user-city">
+        <label class="input-city-wrp hide">Введите Ваш город:
+            <input type="text" class="input-city">
+            <button class="js-save-city">Ok</button>
+        </label>
+        <p class="text-with-city-wrp hide">
+            <span class="text-with-city"></span>
+            <button class="js-remove-city">x</button>
+        </p>
+    </section>
+    <section id="user-survey">
+        <div class="user-questions">
+            <h3>Ваши предпочтения:</h3>
+            <label><input type="checkbox">Не звонить мне;</label>
+            <label><input type="checkbox">Я прочитал и согласен с правилами пользования сервисом;</label>
+            <label><input type="checkbox">Я не выбираю эту галочку;</label>
+            <label><input type="checkbox">Я подтверждаю, что свобода в интернете — это возможность выбирать галочки;</label>
+            <label><input type="checkbox">Мне больше 12 лет;</label>
+            <label><input type="checkbox">Это задание выполнено правильно;</label>
+            <button class="js-save-checkbox hide">Сохранить</button>
+        </div>
+    </section>
+</main>
+
+<script src="js/Cookie.js"></script>
+<script src="js/work_with_cookies.js"></script>
+<script src="js/work_with_localstorage.js"></script>
+</body>
+</html>

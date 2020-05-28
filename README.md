@@ -1,1 +1,1 @@
-# WorkingWithCookies
+# Working with cookies and localStorage.
